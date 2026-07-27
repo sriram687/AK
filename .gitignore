@@ -1,0 +1,78 @@
+# Dependency directories
+/node_modules/
+/jspm_packages/
+/.pnp
+.pnp.*
+/.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js build and cache output
+/.next/
+/out/
+/build/
+/dist/
+
+# Logs
+/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Keystore and local TLS cert files
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Environmental secret files (Crucial: never commit secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.local
+
+# OS / system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors configuration directories
+/.vscode/
+!/.vscode/extensions.json
+/.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# Vercel and Netlify build artifacts
+/.vercel
+/.netlify
+
+# TypeScript compilation cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Temporary creation directory
+/ollama-bot/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
